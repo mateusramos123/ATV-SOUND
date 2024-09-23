@@ -66,6 +66,90 @@ main{
               TOPO
 =====================================*/
 
-header div.topo ul li a{
-    display: flex;
+header{
+	margin: 4vw 8vw 4vw 8vw;
+}
+header nav {
+	display: flex;
+	justify-content: space-between;
+}
+header nav ul {
+	display: flex;
+	color: black;
+    font-size: 0.8rem;
+}
+header nav div.sound {
+	margin: 0 10vw 5vw 5vw;
+	
+}
+header nav div.topo {
+	margin: 0vw 5vw 5vw 5vw;
+	
+}
+header nav div.topo ul li.login {
+	margin: 0 0 0 3vw;
+}
+
+/*=====================/*===================================
+              CONTEÚDO - Video call
+=====================================*/
+            
+section.primeiro div.tudo {
+	display: flex;
+}
+section.primeiro div.titulo {
+	margin: 5vw 5vw 5vw 15vw;
+	font-size: 2rem;
+}
+section.primeiro div.texto1 {
+	margin: 0vw 0vw 3vw 5vw;
+	font-size: 0.8rem;
+	color: gray;
+}
+section.primeiro div.imagemsa {
+	margin: 0 5vw 10vw 20vw;
+}
+section.primeiro div.linha {
+	margin: 0 0 0 5vw;
+}
+
+/*=====================/*===================================
+              CONTEÚDO - Browse our 
+=====================================*/ 
+
+section.segundo {
+	display: flex;
+	margin: 8vw 0 0 0;
+}
+section.segundo div.separar {
+	margin: 2vw 2vw 2vw 6vw;
+	font-size: 1.5rem;
+}
+section.segundo div.lorem {
+	font-size: 0.8rem;
+	margin: 3vw 15vw 0 0;
+}
+section.segundo div.online {
+	margin: 0 0 0 5vw;
+}
+section.segundo div.online
+
+
+/*=====================/*===================================
+              CONTEÚDO - Rodapé
+=====================================*/ 
+
+footer div.linha1 {
+	margin: 5vw 0 0 22vw;
+}
+footer div.sociais {
+	display: flex;
+	margin: 5vw 0 0 40vw;
+
+}
+footer div.sociais p img {
+	padding: 0px 0px 0px 15px;
+}
+footer div.copia {
+	margin: 2vw 5vw 5vw 33vw;
 }
