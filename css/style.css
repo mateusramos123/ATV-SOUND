@@ -46,110 +46,119 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*Formata o documento html tirando todos os espaços, etc.*/
 
-/*===================================
-              GERAL   
-=====================================*/
-html{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: calc(10px + 1vw);
+/*======================================================================
+                                Geral
+=======================================================================*/
+body{
+	margin: 1.5vw 20vw 2vw 20vw;
+	font-family: 'Poppins', sans-serif;;
 }
-a{
-    color: black;
-    text-decoration: none;
-}
-main{
-	margin: 0 15vw 0 15vw;
-}
-
-/*===================================
-              TOPO
-=====================================*/
-
-header{
-	margin: 4vw 8vw 4vw 8vw;
-}
-header nav {
+/*======================================================================
+                                Header
+========================================================================*/
+header nav ul{
 	display: flex;
-	justify-content: space-between;
 }
-header nav ul {
-	display: flex;
-	color: black;
-    font-size: 0.8rem;
-}
-header nav div.sound {
-	margin: 0 10vw 5vw 5vw;
+header nav ul li.singUp a{
+	margin: 0 0 0 30vw;
 	
 }
-header nav div.topo {
-	margin: 0vw 5vw 5vw 5vw;
-	
+header nav ul li a{
+	text-decoration: none;
+	color: #553C16;
+	padding: 0 10px 0 10px;
+	font-family: 'Montserrat', sans-serif;
 }
-header nav div.topo ul li.login {
-	margin: 0 0 0 3vw;
-}
-
-/*=====================/*===================================
-              CONTEÚDO - Video call
-=====================================*/
-            
-section.primeiro div.tudo {
+/*======================================================================
+                                Main - Parte 1
+========================================================================*/
+main section {
 	display: flex;
 }
-section.primeiro div.titulo {
-	margin: 5vw 5vw 5vw 15vw;
-	font-size: 2rem;
+main section div.portfolio img{
+	width: 18rem;
+	margin: 7vw 2vw 2vw 0;
 }
-section.primeiro div.texto1 {
-	margin: 0vw 0vw 3vw 5vw;
-	font-size: 0.8rem;
-	color: gray;
+main section div ul li h1{
+	font-size: 45px;
+	margin: 9vw 10vw 4vw 7vw;
 }
-section.primeiro div.imagemsa {
-	margin: 0 5vw 10vw 20vw;
+main section div ul li p{
+	margin: 0vw 10vw 0vw 7vw;
+	line-height: 25px;
+	color: #404852;
 }
-section.primeiro div.linha {
-	margin: 0 0 0 5vw;
-}
-
-/*=====================/*===================================
-              CONTEÚDO - Browse our 
-=====================================*/ 
-
-section.segundo {
+main section div.divPrincipal{
 	display: flex;
-	margin: 8vw 0 0 0;
 }
-section.segundo div.separar {
-	margin: 2vw 2vw 2vw 6vw;
+main section div.divPrincipal img{
+	margin: 1.5vw 1vw 0vw 7vw;
+}
+main section div.divPrincipal div.divSecundaria{
+	margin: 2vw 0vw 0vw 0vw;
+	font-size: 10px;
+}
+main section div.divPrincipal div.divSecundaria p.p1{
+	color: #2C3A4B;
+	padding: 10px 0 0 0;
+}
+
+
+/*======================================================================
+                                Main - Parte 2
+========================================================================*/
+section div.divPrincipalBrowse div h2{
+	font-size: 50px;
+	margin: 4vw 2vw 0 0;
+	line-height: 55px;
+}
+section div.divPrincipalBrowse div p{
+	margin: 2vw 10vw 0 0;
+	color: #404852;
+	line-height: 25px;
+}
+section div.divPrincipalBrowse{
+	display: flex;
+}
+section div.divPrincipalBrowse div ul li h3{
+	font-size: 30px;
+	/* margin: 3vw 10vw 0 0vw; */
+}
+
+section div.divPrincipalBrowse div ul li h3.primeiroH3{
+	margin: 4.5vw 0 0 0 ;
+}
+section div.divPrincipalBrowse div ul li h3 span{
+	color: #404852;
+	font-size: 23px;
+	margin: 0 1vw 0 0;
+}
+section div.divPrincipalBrowse div ul li p{
+	margin: 1vw 2vw 3vw 3vw;
+	font-size: 15px;
+}
+section div.info{
+	width: 50%;
+}
+/*======================================================================
+                                Footer
+========================================================================*/
+footer nav ul{
+	display: flex;
+	margin: 4vw 0 1.2vw 0;
+	justify-content: center;
+}
+footer{
+	text-align: center;
+}
+footer nav ul li a span{
+	padding: 10px;
+	color: #21243D;
 	font-size: 1.5rem;
 }
-section.segundo div.lorem {
-	font-size: 0.8rem;
-	margin: 3vw 15vw 0 0;
+footer p{
+	font-size: 10px;
 }
-section.segundo div.online {
-	margin: 0 0 0 5vw;
-}
-section.segundo div.online
 
-
-/*=====================/*===================================
-              CONTEÚDO - Rodapé
-=====================================*/ 
-
-footer div.linha1 {
-	margin: 5vw 0 0 22vw;
-}
-footer div.sociais {
-	display: flex;
-	margin: 5vw 0 0 40vw;
-
-}
-footer div.sociais p img {
-	padding: 0px 0px 0px 15px;
-}
-footer div.copia {
-	margin: 2vw 5vw 5vw 33vw;
-}
